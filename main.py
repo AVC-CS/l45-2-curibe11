@@ -1,9 +1,9 @@
-import random
-total = 0
-numbers = []
+
+
 def main():  
-    
-    
+    import random 
+    numbers = []
+    total = 0 
     for i in range(5):
         numbers.append(random.randint(0,100))
         print(numbers[i], end = ' ')
@@ -16,5 +16,5 @@ def main():
     return numbers, total
 
 
-    if __name__ == '__main__':
-     main()
+if __name__ == '__main__':
+    main()
