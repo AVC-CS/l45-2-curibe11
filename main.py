@@ -2,9 +2,8 @@ import random
 numbers = []
 total = 0
 def main():  
-     
-    numbers = []
-    total = 0
+    
+    
     for i in range(5):
        numbers.append(random.randint(0,100))
     print(numbers[i], end = ' ')
