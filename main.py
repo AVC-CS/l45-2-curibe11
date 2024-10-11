@@ -1,11 +1,11 @@
 import random
-numbers = []
 total = 0
+numbers = []
 def main():  
     
     
-    for i in range(5):
-       numbers.append(random.randint(0,100))
+ for i in range(5):
+    numbers.append(random.randint(0,100))
     print(numbers[i], end = ' ')
     total += numbers[i] 
     print (total)
