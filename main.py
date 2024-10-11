@@ -2,6 +2,7 @@ import random
 
 
 def main():
+    import random
     numbers = []
     total = 0
     for i in range(5):
