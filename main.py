@@ -8,6 +8,7 @@ def main():
         numbers.append(random.randint(0,100))
         print(numbers[i], end = ' ')
         total += numbers[i] 
+    total -= numbers[-1]
     print (total)
 
     ########################################
